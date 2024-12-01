@@ -1,7 +1,7 @@
 
 
 def read_input() -> list[tuple[int, int]]:
-    with open("day1/p1.txt") as f:
+    with open("day1/input.txt") as f:
         data = f.read()
         data = data.splitlines()
         data = [(int(d.split()[0]), int(d.split()[1]))
